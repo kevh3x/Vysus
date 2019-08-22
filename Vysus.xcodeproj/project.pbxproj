@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E15155022F2BA830011BCD3 /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E15154F22F2BA830011BCD3 /* BackgroundGradient.swift */; };
+		3E2381CF22F24B1F00AFC376 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2381CE22F24B1F00AFC376 /* FilterViewController.swift */; };
+		3E24909222EEA11000911C99 /* DetectIphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24909122EEA11000911C99 /* DetectIphone.swift */; };
+		3E24909622EEA42500911C99 /* swipeUp.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E24909522EEA42500911C99 /* swipeUp.json */; };
+		3E4224F622DE557100A22FBB /* PersonalizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4224F522DE557100A22FBB /* PersonalizationViewController.swift */; };
+		3E4F787222F01B03009A02EE /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E4F787122F01B03009A02EE /* loading.json */; };
+		3E4F787422F01C11009A02EE /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F787322F01C11009A02EE /* LoadingViewController.swift */; };
+		3E6A9CDF22DFC49F003D52DE /* FirstTutorialScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A9CDE22DFC49F003D52DE /* FirstTutorialScreenViewController.swift */; };
+		3E786EDA22E78BA20022D0F8 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E786ED922E78BA20022D0F8 /* ShareViewController.swift */; };
+		3E786EDC22E78E710022D0F8 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E786EDB22E78E710022D0F8 /* CommentsViewController.swift */; };
+		3E8EF7F522F0C2EE00F19CE2 /* AnimationFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8EF7F422F0C2EE00F19CE2 /* AnimationFunction.swift */; };
+		3EDAEF4322DC58EA00EA4DF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEF4222DC58EA00EA4DF1 /* AppDelegate.swift */; };
+		3EDAEF4522DC58EA00EA4DF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDAEF4422DC58EA00EA4DF1 /* ViewController.swift */; };
+		3EDAEF4822DC58EA00EA4DF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDAEF4622DC58EA00EA4DF1 /* Main.storyboard */; };
+		3EDAEF4A22DC58EB00EA4DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDAEF4922DC58EB00EA4DF1 /* Assets.xcassets */; };
+		3EFF400322EF645500C7D919 /* check.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF400222EF645500C7D919 /* check.json */; };
+		CFC2068722EF9B2C0078896C /* likeHeartAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = CFC2068622EF9B2B0078896C /* likeHeartAnimation.json */; };
+		DAB985DF22EA4A5300670FAE /* SpeechControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB985DE22EA4A5300670FAE /* SpeechControls.swift */; };
+		DAB985E122EAC03E00670FAE /* tags.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAB985E022EAC03E00670FAE /* tags.txt */; };
+		DAB985E322EAD28400670FAE /* confirmationsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAB985E222EAD28400670FAE /* confirmationsound.mp3 */; };
+		DAB985E522EAD72600670FAE /* confirmation2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAB985E422EAD72600670FAE /* confirmation2.mp3 */; };
+		E636A19D22EF533500289F95 /* PopoverContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636A19C22EF533500289F95 /* PopoverContentController.swift */; };
+		E65C985722EA216A009173C6 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C985622EA216A009173C6 /* AuthenticationViewController.swift */; };
+		E6B689D022F0FB2600EB66B5 /* swipeDown.json in Resources */ = {isa = PBXBuildFile; fileRef = E6B689CF22F0FB2600EB66B5 /* swipeDown.json */; };
+		E6B689DC22F69E6E00EB66B5 /* DescribedCheck3.json in Resources */ = {isa = PBXBuildFile; fileRef = E6B689DB22F69E6E00EB66B5 /* DescribedCheck3.json */; };
+		E76A08A3FB549E41B9245FA9 /* Pods_Vysus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CC7C3133FC4C5DF77E3E16 /* Pods_Vysus.framework */; };
+		F4CB6A4A22EB7C5C003E7E36 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB6A4922EB7C5C003E7E36 /* Images.swift */; };
+		F4CB6A4C22EB7D44003E7E36 /* DisplayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB6A4B22EB7D44003E7E36 /* DisplayInfo.swift */; };
+		F4CB6A4E22EBAD1D003E7E36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4CB6A4D22EBAD1D003E7E36 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24CC7C3133FC4C5DF77E3E16 /* Pods_Vysus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vysus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E15154F22F2BA830011BCD3 /* BackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradient.swift; sourceTree = "<group>"; };
+		3E2381CE22F24B1F00AFC376 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		3E24909122EEA11000911C99 /* DetectIphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectIphone.swift; sourceTree = "<group>"; };
+		3E24909522EEA42500911C99 /* swipeUp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swipeUp.json; sourceTree = "<group>"; };
+		3E4224F522DE557100A22FBB /* PersonalizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationViewController.swift; sourceTree = "<group>"; };
+		3E4F787122F01B03009A02EE /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		3E4F787322F01C11009A02EE /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		3E6A9CDE22DFC49F003D52DE /* FirstTutorialScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTutorialScreenViewController.swift; sourceTree = "<group>"; };
+		3E786ED922E78BA20022D0F8 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		3E786EDB22E78E710022D0F8 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		3E8EF7F422F0C2EE00F19CE2 /* AnimationFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFunction.swift; sourceTree = "<group>"; };
+		3EDAEF3F22DC58EA00EA4DF1 /* Vysus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vysus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDAEF4222DC58EA00EA4DF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EDAEF4422DC58EA00EA4DF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EDAEF4722DC58EA00EA4DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EDAEF4922DC58EB00EA4DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDAEF4E22DC58EB00EA4DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EFF400222EF645500C7D919 /* check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = check.json; sourceTree = "<group>"; };
+		B33A091FE9513A6588FF26E1 /* Pods-Vysus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vysus.debug.xcconfig"; path = "Target Support Files/Pods-Vysus/Pods-Vysus.debug.xcconfig"; sourceTree = "<group>"; };
+		CFC2068622EF9B2B0078896C /* likeHeartAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = likeHeartAnimation.json; sourceTree = "<group>"; };
+		DAB985DE22EA4A5300670FAE /* SpeechControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechControls.swift; sourceTree = "<group>"; };
+		DAB985E022EAC03E00670FAE /* tags.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tags.txt; sourceTree = "<group>"; };
+		DAB985E222EAD28400670FAE /* confirmationsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = confirmationsound.mp3; sourceTree = "<group>"; };
+		DAB985E422EAD72600670FAE /* confirmation2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = confirmation2.mp3; sourceTree = "<group>"; };
+		E636A19C22EF533500289F95 /* PopoverContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverContentController.swift; sourceTree = "<group>"; };
+		E65C985622EA216A009173C6 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		E6B689CF22F0FB2600EB66B5 /* swipeDown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swipeDown.json; sourceTree = "<group>"; };
+		E6B689DB22F69E6E00EB66B5 /* DescribedCheck3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DescribedCheck3.json; sourceTree = "<group>"; };
+		F4CB6A4922EB7C5C003E7E36 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		F4CB6A4B22EB7D44003E7E36 /* DisplayInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInfo.swift; sourceTree = "<group>"; };
+		F4CB6A4D22EBAD1D003E7E36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6573692041536E4717B47B7 /* Pods-Vysus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vysus.release.xcconfig"; path = "Target Support Files/Pods-Vysus/Pods-Vysus.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EDAEF3C22DC58EA00EA4DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76A08A3FB549E41B9245FA9 /* Pods_Vysus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EDAEF3622DC58EA00EA4DF1 = {
+			isa = PBXGroup;
+			children = (
+				3EDAEF4122DC58EA00EA4DF1 /* Vysus */,
+				3EDAEF4022DC58EA00EA4DF1 /* Products */,
+				69F907ECB49393E554BA1030 /* Pods */,
+				8A1AFF70EF39B8D52CD21951 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EDAEF4022DC58EA00EA4DF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EDAEF3F22DC58EA00EA4DF1 /* Vysus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EDAEF4122DC58EA00EA4DF1 /* Vysus */ = {
+			isa = PBXGroup;
+			children = (
+				E636A19C22EF533500289F95 /* PopoverContentController.swift */,
+				3EDAEF4222DC58EA00EA4DF1 /* AppDelegate.swift */,
+				3EDAEF4622DC58EA00EA4DF1 /* Main.storyboard */,
+				3E2381CE22F24B1F00AFC376 /* FilterViewController.swift */,
+				3E4F787322F01C11009A02EE /* LoadingViewController.swift */,
+				3E24909122EEA11000911C99 /* DetectIphone.swift */,
+				DAB985DE22EA4A5300670FAE /* SpeechControls.swift */,
+				DAB985E022EAC03E00670FAE /* tags.txt */,
+				3E786EDB22E78E710022D0F8 /* CommentsViewController.swift */,
+				DAB985E422EAD72600670FAE /* confirmation2.mp3 */,
+				3E786ED922E78BA20022D0F8 /* ShareViewController.swift */,
+				3E15154F22F2BA830011BCD3 /* BackgroundGradient.swift */,
+				DAB985E222EAD28400670FAE /* confirmationsound.mp3 */,
+				3EDAEF4422DC58EA00EA4DF1 /* ViewController.swift */,
+				E65C985622EA216A009173C6 /* AuthenticationViewController.swift */,
+				3E4224F522DE557100A22FBB /* PersonalizationViewController.swift */,
+				3E8EF7F422F0C2EE00F19CE2 /* AnimationFunction.swift */,
+				3E6A9CDE22DFC49F003D52DE /* FirstTutorialScreenViewController.swift */,
+				F4CB6A4D22EBAD1D003E7E36 /* GoogleService-Info.plist */,
+				F4CB6A4922EB7C5C003E7E36 /* Images.swift */,
+				F4CB6A4B22EB7D44003E7E36 /* DisplayInfo.swift */,
+				3EDAEF4922DC58EB00EA4DF1 /* Assets.xcassets */,
+				CFC2068622EF9B2B0078896C /* likeHeartAnimation.json */,
+				E6B689DB22F69E6E00EB66B5 /* DescribedCheck3.json */,
+				3E24909522EEA42500911C99 /* swipeUp.json */,
+				E6B689CF22F0FB2600EB66B5 /* swipeDown.json */,
+				3E4F787122F01B03009A02EE /* loading.json */,
+				3EFF400222EF645500C7D919 /* check.json */,
+				3EDAEF4E22DC58EB00EA4DF1 /* Info.plist */,
+			);
+			path = Vysus;
+			sourceTree = "<group>";
+		};
+		69F907ECB49393E554BA1030 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B33A091FE9513A6588FF26E1 /* Pods-Vysus.debug.xcconfig */,
+				F6573692041536E4717B47B7 /* Pods-Vysus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A1AFF70EF39B8D52CD21951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7C3133FC4C5DF77E3E16 /* Pods_Vysus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EDAEF3E22DC58EA00EA4DF1 /* Vysus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDAEF6722DC58EB00EA4DF1 /* Build configuration list for PBXNativeTarget "Vysus" */;
+			buildPhases = (
+				8A038E9F983A887013D2BCD5 /* [CP] Check Pods Manifest.lock */,
+				3EDAEF3B22DC58EA00EA4DF1 /* Sources */,
+				3EDAEF3C22DC58EA00EA4DF1 /* Frameworks */,
+				3EDAEF3D22DC58EA00EA4DF1 /* Resources */,
+				08A913D9F90CA961358360E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vysus;
+			productName = "Vysus Welcome version 3";
+			productReference = 3EDAEF3F22DC58EA00EA4DF1 /* Vysus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EDAEF3722DC58EA00EA4DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jacinda Eng";
+				TargetAttributes = {
+					3EDAEF3E22DC58EA00EA4DF1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EDAEF3A22DC58EA00EA4DF1 /* Build configuration list for PBXProject "Vysus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EDAEF3622DC58EA00EA4DF1;
+			productRefGroup = 3EDAEF4022DC58EA00EA4DF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EDAEF3E22DC58EA00EA4DF1 /* Vysus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EDAEF3D22DC58EA00EA4DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFF400322EF645500C7D919 /* check.json in Resources */,
+				3E24909622EEA42500911C99 /* swipeUp.json in Resources */,
+				E6B689DC22F69E6E00EB66B5 /* DescribedCheck3.json in Resources */,
+				DAB985E522EAD72600670FAE /* confirmation2.mp3 in Resources */,
+				3EDAEF4A22DC58EB00EA4DF1 /* Assets.xcassets in Resources */,
+				3E4F787222F01B03009A02EE /* loading.json in Resources */,
+				DAB985E322EAD28400670FAE /* confirmationsound.mp3 in Resources */,
+				E6B689D022F0FB2600EB66B5 /* swipeDown.json in Resources */,
+				CFC2068722EF9B2C0078896C /* likeHeartAnimation.json in Resources */,
+				DAB985E122EAC03E00670FAE /* tags.txt in Resources */,
+				3EDAEF4822DC58EA00EA4DF1 /* Main.storyboard in Resources */,
+				F4CB6A4E22EBAD1D003E7E36 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08A913D9F90CA961358360E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vysus/Pods-Vysus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vysus/Pods-Vysus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vysus/Pods-Vysus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A038E9F983A887013D2BCD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vysus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EDAEF3B22DC58EA00EA4DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB985DF22EA4A5300670FAE /* SpeechControls.swift in Sources */,
+				3E15155022F2BA830011BCD3 /* BackgroundGradient.swift in Sources */,
+				3E24909222EEA11000911C99 /* DetectIphone.swift in Sources */,
+				3E786EDA22E78BA20022D0F8 /* ShareViewController.swift in Sources */,
+				3EDAEF4522DC58EA00EA4DF1 /* ViewController.swift in Sources */,
+				3E4224F622DE557100A22FBB /* PersonalizationViewController.swift in Sources */,
+				3E786EDC22E78E710022D0F8 /* CommentsViewController.swift in Sources */,
+				E636A19D22EF533500289F95 /* PopoverContentController.swift in Sources */,
+				3E8EF7F522F0C2EE00F19CE2 /* AnimationFunction.swift in Sources */,
+				E65C985722EA216A009173C6 /* AuthenticationViewController.swift in Sources */,
+				3E2381CF22F24B1F00AFC376 /* FilterViewController.swift in Sources */,
+				F4CB6A4A22EB7C5C003E7E36 /* Images.swift in Sources */,
+				3EDAEF4322DC58EA00EA4DF1 /* AppDelegate.swift in Sources */,
+				3E6A9CDF22DFC49F003D52DE /* FirstTutorialScreenViewController.swift in Sources */,
+				3E4F787422F01C11009A02EE /* LoadingViewController.swift in Sources */,
+				F4CB6A4C22EB7D44003E7E36 /* DisplayInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EDAEF4622DC58EA00EA4DF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDAEF4722DC58EA00EA4DF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EDAEF6522DC58EB00EA4DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EDAEF6622DC58EB00EA4DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EDAEF6822DC58EB00EA4DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33A091FE9513A6588FF26E1 /* Pods-Vysus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Vysus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacinda.VysusAbshir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EDAEF6922DC58EB00EA4DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6573692041536E4717B47B7 /* Pods-Vysus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Vysus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacinda.VysusAbshir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EDAEF3A22DC58EA00EA4DF1 /* Build configuration list for PBXProject "Vysus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDAEF6522DC58EB00EA4DF1 /* Debug */,
+				3EDAEF6622DC58EB00EA4DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDAEF6722DC58EB00EA4DF1 /* Build configuration list for PBXNativeTarget "Vysus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDAEF6822DC58EB00EA4DF1 /* Debug */,
+				3EDAEF6922DC58EB00EA4DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EDAEF3722DC58EA00EA4DF1 /* Project object */;
+}
